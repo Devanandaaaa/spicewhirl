@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpiceWhirl | Indian flavours</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Spice<span>Whirl</span></h1>
+            <p class="tagline">Authentic Indian Flavors</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search recipes..." autocomplete="off">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="recipes-grid" id="recipes-container">
+            <!-- Recipes loaded via JavaScript -->
+        </div>
+
+        <!-- About Section - Placed at the end of the main section -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About SpiceWhirl</h2>
+                <p>
+                    Welcome to SpiceWhirl, your ultimate destination for authentic Indian recipes! 
+                    At SpiceWhirl, we bring you a carefully curated collection of traditional 
+                    and contemporary Indian dishes that will tantalize your taste buds. 
+                    Whether you're a beginner or an experienced cook, our recipes are easy to follow 
+                    and perfect for every occasion.
+                </p>
+                <p>
+                    From the rich and spicy curries of the north to the light and flavorful dishes of the south, 
+                    SpiceWhirl offers something for everyone. Our recipes feature authentic ingredients, 
+                    and we aim to keep the essence of Indian flavors alive in every bite. 
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span>  SpiceWhirl. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
